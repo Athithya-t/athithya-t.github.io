@@ -1,0 +1,96 @@
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athithya - Portfilo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css"/>
+    <style>
+        *{
+            font-family: 'Roboto Mono', monospace;
+            font-family: 'Rowdies', cursive;
+        }   
+    </style>
+</head>
+<body class="bg-blue-100 h-auto m-0 p-0 overflow-x-hidden">
+    <section id="main-contents">
+        <div>
+            <div class="flex justify-center md:justify-start mt-[2%]">
+            <div class="bg-violet-500 text-center flex md:flex-col flex-row gap-2 fixed rounded-full md:mt-[15%] justify-center z-10 xl:ml-0 p-1">
+                <div class="rounded-full w-[80%] inline-block h-[25%] bg-blue-100 ml-1 mt-1 hover:bg-violet-500 transition ease-in-out duration-300 hover:-translate-y-1 hover:shadow-2xl">
+                    <a href="#main-contents"><img src="./Images/person-icon.svg"/></a>
+                </div>
+                <div class="rounded-full w-[80%] inline-block h-[25%] bg-blue-100 ml-1 hover:bg-violet-500 transition ease-in-out duration-300 hover:-translate-y-1 hover:shadow-2xl">
+                    <a href="#projects-link"><img src="./Images/projects-icon.svg"/></a>
+                </div>
+                <div class="rounded-full w-[80%] inline-block h-[25%] border-inherit bg-blue-100 ml-1 hover:bg-violet-500 transition ease-in-out duration-300 hover:-translate-y-1 hover:shadow-2xl">
+                    <a href="#socials"><img src="./Images/socials-icon.svg" /></a>
+                </div>
+            </div>
+            </div>
+            <div class="flex justify-center md:ml-[16%] md:justify-start md:mt-[5%] mt-[40%]">
+            <div class="flex flex-col gap-4 justify-center md:mt-0">
+                <div class="rounded-full w-60 h-60 mt-[10%] outline outline-4 outline-offset-8 outline-violet-500 drop-shadow-xl overflow-hidden" data-aos="fade-left" data-aos-duration="2000">
+                    <img src="Images/MyPic.jpeg"/>
+                </div>
+                <p class="text-4xl font-bold ml-14 text-violet-500">Athithya</p>
+                <p class="w-60 ml-6 text-xl text-violet-500">Aspriring Web Developer Open-Source Enthusiast</p>
+                <div class="bg-black inline-block p-1.5 rounded w-fit ml-20 hover:bg-violet-500 hover:shadow-xl transition ease-in-out duration-300 hover:-translate-y-1">
+                    <a href="https://github.com/Athithya-t" target="_blank"><img src="./Images/GitHub-Symbol.png" class="absolute w-6 h-6 bg-blue-100 rounded-full inline-block"/>
+                    <p class="text-blue-100 ml-7 ">Github</p></a>
+                </div>
+            </div>
+            </div>
+            <div class="md:absolute relative ml-0 bg-violet-500 mt-[20%] md:mt-0 md:ml-[49.8%] p-[5%] z-0 h-fit md:h-[90%] lg:h-[95%] xl:[100%] 2xl:h-[100%] top-0 pb-20" data-aos="fade-left" data-aos-duration="500">
+                <p class="absolute mt-[10%] text-2xl ml-[3.6%] text-blue-100">About Me:</p>
+                <p class="text-xl mt-[20%] ml-[5%] text-blue-100">I'm an Aspiring Web developer based out of Chennai. I am an intermediate at Front-end development using React JS and have some experience with Node JS. I have also built a few web projects on my own and a few GUI based apps using Python and Java. I am also an Open-Source enthusiast actively looking for projects to contribute to and had also taken part in HacktoberFest 2022.</br>Let's Connect! :)</p>
+            </div>
+            <a href="#projects"><div id="projects-link" class=" md:mt-[5%] relative font-bold text-4xl mt-[20%]">
+                <p class="text-violet-500 text-center">Pro<span class="z-10 md:text-blue-100 text-violet-500 text-center">jects</span></p>
+            </div></a>
+        </div>
+    </section> 
+    <section id="projects" class="h-fit">
+        <div class="place-items-center gap-12 xl:gap-0 xl:grid xl:grid-cols-4 lg:grid-cols-3 mt-[8%] grid grid-cols-1">
+            <div class="bg-violet-500 shadow-2xl rounded-lg w-1/2 transition ease-in-out duration-300 hover:-translate-y-3 hover:drop-shadow-2xl">
+                <a href="https://athithya-t.github.io/React-To-do-list/"><img src="./Images/to do list.png" class="rounded-t-lg"/>
+                <p class="text-blue-100 text-center ">React To-do list</p>
+                <p class="p-5">A To do list created using ReactJS. Tailwind CSS was used for styling.</p></a>
+            </div>
+            <div class=" bg-violet-500 shadow-2xl w-1/2 rounded-lg transition ease-in-out duration-300 hover:-translate-y-3 hover:drop-shadow-2xl">
+                <a href="https://athithya-t.github.io/Web-Calculator/"><div class="bg-blue-200  rounded-t-lg">
+                    <img src="./Images/calculator.png" class="w-[20%] ml-[40%]"/>
+                </div>
+                <p class="text-blue-100 text-center">Web Calculator</p>
+                <p class="p-5">Calculator App created using HTML,CSS and JavaScript. Operates based on DOM manipulation.</p></a>
+            </div>
+            <div class=" bg-violet-500 shadow-2xl w-1/2 rounded-lg transition ease-in-out duration-300 hover:-translate-y-3 hover:drop-shadow-2xl">
+                    <img src="./Images/batman movies landing.png" class="rounded-t-lg"/>
+                <p class="text-blue-100 text-center">Movie Landing Page</p>
+                <p class="p-5">A landing page created for the Dark Knight Triology. Devloped using HTML and CSS.  </p>
+            </div>
+            <div class=" bg-violet-500 shadow-2xl w-1/2  rounded-lg transition ease-in-out duration-300 hover:-translate-y-3 hover:drop-shadow-2xl">
+                <a href="https://github.com/Athithya-t/Python-GUI-Quiz"><img src="./Images/sports quiz using python.png" class="rounded-t-lg"/>
+            <p class="text-blue-100 text-center">Quiz Application using Python,Tkinter</p>
+            <p class="p-5">A sports quiz created using Python Tkinter. Consists of 200 questions on 4 sports.</p></a>
+        </div>
+        </div>
+    </section>
+    <section id="socials">
+        <p class="text-center mt-[30%] lg:mt-[10%] text-3xl text-violet-500">Connect with me</p>
+        <div class="flex justify-center mt-[1%]">
+        <a href="https://twitter.com/athithya_t" target="_blank"><img src="./Images/twitter-logo.svg"  class="w-16 transition ease-in-out duration-300 hover:-translate-y-3 hover:drop-shadow-xl"/></a>
+        <a href="https://www.linkedin.com/in/athithya-thiagarajan-9a9654225" target="_blank"><img src="./Images/linkedin-icon.svg" class="w-16 transition ease-in-out duration-300 hover:-translate-y-3 hover:drop-shadow-xl"/></a>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
